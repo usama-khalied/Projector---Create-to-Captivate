@@ -78,7 +78,7 @@ ul li .sub-menu ul li a {
     cursor: pointer;
     position: absolute;
     right: 3%;
-    top: 8%;
+    top: 4%;
     transition: 3s;
 
 }
@@ -97,15 +97,13 @@ ul li .sub-menu ul li a {
   header {
       flex-direction: column;
    min-height: 3em;   
-
-
   }
  ul  {
     margin: .3em 1em 1em;
      display: none;
     flex-direction: column;
     transition: 3s;
-
+background-color: black;
 }
 ul li ul {
     display: flex;
@@ -137,8 +135,6 @@ margin-right: 2em;
     display: block;
     z-index: 2;
     text-align: right;
-
-
 }
 }
 section {
@@ -210,7 +206,7 @@ right: 0;
 .col-1 input {
 
     font-size: 1.1em;
-    padding: .4em 3.7em .4em;
+    padding: .6em 3.7em .6em;
     border-radius: .2em;
     border: none;
     border: 2px solid black;
@@ -221,7 +217,6 @@ right: 0;
 }
 .col-1 a {
     font-size: 1em;
-    
     border-top-left-radius: 0;
     border-top-right-radius: .5em;
     border-bottom-right-radius: .5em;
@@ -230,7 +225,7 @@ right: 0;
     color: #fff;
     letter-spacing: 2px;
     border: 1px solid black;
-    padding: .6em .1em .6em;
+    padding: .9em .3em .9em;
     background: black;
     margin: 0 2% 0;
 }
@@ -242,60 +237,37 @@ right: 0;
 @media (max-width:68.750em) {
     .row {
         flex-direction: column;
+        align-items: center;
     }
 section {
-    min-height: 50em;
+    min-height: auto;
 }
-.col-1 h2 {
-    font-size: 1.5em;
-    line-height: 1em;
-}
-.col-1 h1 {
-    font-size: 2em;
-    line-height: 1em;
-}
-.col-2 {
-    margin: 0% 0 0;
-    width: 18.75em;
-height: 400px;
+.col-1 {
+    padding: 0 2rem;
 }
     .col-2 {
-        margin: 5% auto  19%;   
+        margin:6rem auto 3rem;   
+    }
+    .col-1 input {  
+        padding: 1em 3em 1em;
     }
     .col-1 a {
- flex-basis: 100%; 
-        padding: .6em 1px .6em;
-    
-  font-size: 15px;
-    }
-    .col-1 {
-        margin: 0 0 0;
+        padding: 1.3em 3em;  
     }
     .col-1 input {
-        padding: .6em 1.4em .6em;     
+        display: none;
     }
 }
 @media (max-width:75.000em){
     section {
-        height: 50em;
+        height: auto;
         
       }
-      .col-1 a {
-  font-size: .3em;
-    }
-    .col-1 input {
-        padding: .5em 1.4em ;
-     
-    }
-    .col-2 img {
-        max-width: 30vw;
-    }
 }   
 @media (max-width:32.75em){
-   
-        .col-1 input {
-            width: 50%;
-        }
+   section {
+       height: auto;
+   }
     section {
     min-height: 50em;
     }
@@ -316,23 +288,11 @@ height: 400px;
         font-size: 1.2em;
         line-height: 1.2;
     }
+
+   .col-1 a {   
+    padding: .8em 1em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /* --- sectio-2  */
 .container-2 {
@@ -388,14 +348,16 @@ height: 400px;
     .container-2 {
         margin: 0% 0 0;
         min-height:47em;
+        padding:0 3rem;
 
     }
 
     .container-2 h2 {
  
         font-size: 1,2em;
-        margin: 8% auto 10%;
+        margin: 8% auto 6%;
        width: 100%;
+       line-height: 1.3;
     }
 .container-2 {
     min-height: 40em;
@@ -413,107 +375,4 @@ height: 400px;
     }
 }
 
-    /* --- section-3 start */
-    .container-3 {
-        /* marg in-top: 20%; */
-        min-height: 39.02em;
-        max-width: 100vw;
-        background-color: #fff !important;
-       
-    }
-    .col-3 h1 {
-        font-size: 5em;
-        font-family: 'Urbanist', sans-serif;
-        font-weight:300;
-        line-height: 1em;
-    }
-    .col-3 h2 {
-        font-size: 1.8em;
-        font-weight: 300;
-        margin: 10% 0 10%;
-    }
-    .line h1 {
-        margin: -5% 2% 0;
-
-    }
-    .line:hover {
-   background-color: red;
-width: 100%;
-    }
-    .col-con-3 h1 {
-        font-size: 2em;
-    }
-   .line {
-       display: flex;
-       flex-direction: row;
-    margin: 2em 0 0;
-   }
- .line h1{
-        
-        line-height: 3em;
     
-    }
-    .col-con-3 img{
-    height: 1.7em;
-    width: 1.7em;
-
-    }
-    .col-3  {
-width: 55%;
-margin-bottom: 10%;
-    }
-    .col-4 {
-        width: 37.5em;
-        height:37.5em;
-    ;
-    }
-    .row-2 {
-        display: flex;
-        max-width: 100vw;
-        justify-content: space-evenly;
-        /* margin: 0 5% 0; */
-        padding: 10% 3% 3%;
-    }
-    @media (max-width:38.5em){
-        .container-3 h1 {
-            font-size: 2.8em;
-        
-            line-height: 1em;
-        }
-       
-    
-        .container-3 h2 {
-     
-            font-size: .9em;
-            margin: 10% auto 0%;
-           width: 100%;
-        }
-        }
-        @media (max-width:45em) {
-            .row-2 {
-            flex-direction: column;
-            /* justify-content: center; */
-            }
-        }
-        @media (max-width:30em) {
-            .col-4 {
-            /* justify-content: left; */
-                width: 25em;
-                height: 25em;
-            }
-            .row-2 {
-            
-align-items: left;
-                }
-            .col-4 video {
-                width: 25empx;
-                height: 24.37em;
-              text-align: left;
-              margin: 0 auto 0;
-               width: 50%;
-            }
-            .col-3 {
-                overflow-y: hidden;
-            }
-        }
-        
