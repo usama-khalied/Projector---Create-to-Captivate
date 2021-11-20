@@ -383,3 +383,29 @@ cotainer-1 {
     display: flex;
     justify-content: space-around;
 }
+.cont-col {
+    width: 60%;
+    padding: 3rem 2rem 0;
+    
+}
+.cont-col h1 {
+    font-size: 5rem;
+font-weight: 100;
+}
+.cont-col h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0 0 3rem;
+}
+.cont-col p {
+    border-top: 1px solid black;
+    padding: 3rem 0;
+    font-size: 1.5rem;
+}
+.cont-col p:hover {
+background-color: red;
+}
+.cont-col p:last-child {
+    border-bottom: 1px solid black;
+    padding: 3rem 0;
+}
