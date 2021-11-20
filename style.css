@@ -282,6 +282,10 @@ container-1 {
     }
     .col-2 img {
     max-width :50vw;
+   
+    }
+    .custom {
+        height: 50vh;
     }
     .col-1 h1 {
         font-size: 2.5em;
@@ -353,7 +357,6 @@ container-1 {
 @media (max-width:39.5em){
     .container-2 h1 {
         font-size: 2.8em;
-    
         line-height:1em;
     }
     .container-2 {
