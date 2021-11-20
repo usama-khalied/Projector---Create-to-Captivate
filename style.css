@@ -401,9 +401,10 @@ font-weight: 100;
     border-top: 1px solid black;
     padding: 3rem 0;
     font-size: 1.5rem;
+    transition: .3s all;
 }
 .cont-col p:hover {
-background-color: red;
+background-color: #E5EDF0;
 }
 .cont-col p:last-child {
     border-bottom: 1px solid black;
