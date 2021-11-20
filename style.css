@@ -427,5 +427,11 @@ background-color: #E5EDF0;
     }
 }
 @media (max-width:480px){
-    
+    .cont-col h1 {
+        font-size: 3rem;
+    }
+    .cont-col h2 {
+        font-size: 1.5rem;
+        margin: 2rem 0 3rem;
+    }   
 }
