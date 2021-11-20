@@ -384,7 +384,7 @@ cotainer-1 {
     justify-content: space-around;
 }
 .cont-col {
-    width: 60%;
+    width: 50%;
     padding: 3rem 2rem 0;
     
 }
@@ -403,10 +403,16 @@ font-weight: 100;
     font-size: 1.5rem;
     transition: .3s all;
 }
+.cont-col p .fab , .fas , .far {
+    margin: 0 0.75rem;
+} 
 .cont-col p:hover {
 background-color: #E5EDF0;
 }
 .cont-col p:last-child {
     border-bottom: 1px solid black;
     padding: 3rem 0;
+}
+.video-col {
+    padding: 6rem 0 0;
 }
