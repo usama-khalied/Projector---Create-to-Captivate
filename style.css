@@ -374,5 +374,12 @@ cotainer-1 {
    
     }
 }
-
+/* ----- section 3 ------ */
     
+.container-3 {
+    width: 100%;
+}
+.video-row {
+    display: flex;
+    justify-content: space-around;
+}
