@@ -16,7 +16,7 @@
             navLinks.style.display = "none";
             closing.style.display = "none";
             menulist.style.display = "block";
-            header.style.background = "#FFF0E6";
+            header.style.background = "white";
             head1.style.display = "block";
             head2.style.display = "none";
             return false;
