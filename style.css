@@ -416,3 +416,16 @@ background-color: #E5EDF0;
 .video-col {
     padding: 6rem 0 0;
 }
+@media (max-width:1024px){
+    .video-row {
+     flex-direction: column;
+     align-items: center;
+    }  
+    .cont-col {
+        width: 100%;
+        
+    }
+}
+@media (max-width:480px){
+    
+}
