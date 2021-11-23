@@ -577,6 +577,9 @@ width: 50%;
     width: 600px;
     border: 5px solid white;
 }
+#s-2 {
+    width: 800px;
+}
 @media (max-width:480px){
     .fresh-text h2 {
         font-size: 1.5rem;
