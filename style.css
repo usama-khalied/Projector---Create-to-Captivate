@@ -575,7 +575,7 @@ width: 50%;
 .item img {
     height: 400px;
     width: 600px;
-    border: 2px solid white;
+    border: 5px solid white;
 }
 @media (max-width:480px){
     .fresh-text h2 {
