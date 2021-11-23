@@ -588,6 +588,11 @@ width: 50%;
         font-size: 3rem;
  
     }
+    .item img {
+        height: 400px;
+        width: 200px;
+        border: none;
+    }
 
 }
 @media (max-width:1024px){
