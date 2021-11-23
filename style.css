@@ -570,6 +570,7 @@ width: 50%;
 } 
 .owl-carousel .owl-theme {
     background-color: skyblue;
+    height: 30vh;
 } 
 .item img {
     width: 100%;
