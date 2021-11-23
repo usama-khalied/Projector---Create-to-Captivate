@@ -564,6 +564,13 @@ width: 50%;
     font-weight: 100;
     font-size: 2rem;
 }
+.item {
+    width: 200px;
+    height: 350px;
+} 
+.item img {
+    width: 100%;
+}
 @media (max-width:480px){
     .fresh-text h2 {
         font-size: 1.5rem;
