@@ -568,6 +568,9 @@ width: 50%;
     width: 200px;
     height: 350px;
 } 
+.owl-carousel .owl-theme {
+    background-color: skyblue;
+} 
 .item img {
     width: 100%;
 }
