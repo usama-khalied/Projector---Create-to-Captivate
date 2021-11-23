@@ -571,10 +571,11 @@ width: 50%;
 .owl-carousel  {
     background-color: skyblue;
     height: auto;
+    width: 100%;
 } 
 .item img {
     height: 400px;
-    width: 600px;
+    width: 800px;
     border: 5px solid white;
 }
 
