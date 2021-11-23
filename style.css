@@ -573,7 +573,7 @@ width: 50%;
     height: 30vh;
 } 
 .item img {
-    height: 200px;
+    height: 400px;
     width: 200px;
 }
 @media (max-width:480px){
