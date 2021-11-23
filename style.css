@@ -564,17 +564,17 @@ width: 50%;
     font-weight: 100;
     font-size: 2rem;
 }
-.item {
+/* .item {
     width: 200px;
     height: 350px;
-} 
+}  */
 .owl-carousel .owl-theme {
     background-color: skyblue;
     height: 30vh;
 } 
 .item img {
     height: 400px;
-    width: 300px;
+    width: 500px;
 }
 @media (max-width:480px){
     .fresh-text h2 {
