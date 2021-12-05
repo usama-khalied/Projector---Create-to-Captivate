@@ -764,3 +764,9 @@ font-weight: 400;
     } 
 }
 
+footer {
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+
+}
