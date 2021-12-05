@@ -750,4 +750,17 @@ font-weight: 400;
     background: black;
     margin: 3rem auto 0;
 }
+@media(max-width:1024px){
+    .footer-1 .content-footer h1{
+        font-size: 3rem;
+        color: white;
+        font-weight: 400;
+        margin: 3rem 3rem 0;
+        }
+}
+@media (max-width:600px){
+    .footer-1 .content-footer a {
+ display: none;
+    } 
+}
 
