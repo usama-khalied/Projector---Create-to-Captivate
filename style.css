@@ -19,6 +19,7 @@ header {
     background-color: white;
     position: sticky;
     top: 0;
+    z-index: 3;
 
 }
 .logo {
@@ -617,6 +618,10 @@ width: 50%;
     width: 100%;
     background-color: #F5F5F5;
     height: 100%;
+    position: relative;
+    top: 0;
+    z-index: -1;
+ 
   }
 
   .swiper-slide {
@@ -630,7 +635,8 @@ width: 50%;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    margin: 4rem 5rem;
+    margin-top: 4rem;
+    margin-left: 6rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -640,12 +646,14 @@ width: 50%;
     -webkit-align-items: center;
     align-items: center;
   }
+  .swiper-slide:nth-child(2), .swiper-slide:nth-child(3) , .swiper-slide:nth-child(4) , .swiper-slide:nth-child(5), .swiper-slide:nth-child(6) , .swiper-slide:nth-child(7) , .swiper-slide:nth-child(8) {
+   margin-left: 0;
+  }
 
   .swiper-slide img {
-    display: block;
-    width: 35%;
-    height: 35%;
-    object-fit:cover;
+    display:inline-block;
+  width: 30%;
+ 
   }
   .swiper-slide .text h1 {
       /* width: 50%; */
