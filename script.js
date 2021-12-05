@@ -47,11 +47,12 @@
             pagination: {
               el: ".swiper-pagination",
               type: "progressbar",
+              autoplay: true,
+
             },
             navigation: {
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
-              autoplay: true,
 
             },
           });
