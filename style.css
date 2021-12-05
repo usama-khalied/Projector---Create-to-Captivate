@@ -677,3 +677,9 @@ font-weight: 400;
         width: 60px;
         margin: 3rem auto;
     }
+/* --footer- start */
+.footer-1 {
+    width: 100%;
+    height: 30vh;
+    background-color: #0F413B;
+}
