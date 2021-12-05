@@ -725,6 +725,7 @@ color: white;
 font-weight: 400;
 }
 .footer-1 .content-footer input {
+   
 
     font-size: 1.1em;
     padding: .6em 3.7em .6em;
@@ -741,12 +742,11 @@ font-weight: 400;
     border-top-left-radius: 0;
     border-top-right-radius: .5em;
     border-bottom-right-radius: .5em;
-
     text-decoration: none;
     color: #fff;
     letter-spacing: 2px;
     border: 1px solid black;
-    padding: .1rem .3rem;
+    padding: .1rem 3rem;
     background: black;
     margin: 3rem auto 0;
 }
