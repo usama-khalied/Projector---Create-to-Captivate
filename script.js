@@ -59,25 +59,19 @@
 
 // javascript design pettern video
 
-let array = [
-    "./Projector — Create to captivate.webm"
-]
+
 let btns = document.querySelectorAll('.btn');
+let video = document.getElementById('video1');
 btns.forEach( function(btn) {
-btn.addEventListener('click' , function(e) {
-    let source = document.getElementsByTagName('source');
-    var video1 = document.querySelector('#video1');
+btn.addEventListener('click' , function(e) {  
+// let video = document.querySelector('#video1');
+
 let target =  e.currentTarget.classList;
 if(target.contains("second")){
-    // video1.textContent = array[0]
-    source.src="Projector — Create to captivate.webm";
-    console.log(source)
-// video1.getElementsByTagName('source')[0].src="Projector — Create to captivate.webm";
- video1.src="Projector — Create to captivate.webm";
-// source.setAttribute('src', './Projector — Create to captivate.webm');
-video1.load();
-video1.play();
 
+    video.setAttribute("src", "./Projector — Create to captivate (1).webm");
+    video.load();
+video.play();
 }  
 })    
 })
